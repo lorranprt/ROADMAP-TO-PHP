@@ -57,7 +57,7 @@ Banco de dados: onde os dados estão armazenados.
 SGBD: software que permite gerenciar esses dados.
 
 Saber essa diferença é essencial para entender corretamente os conceitos da área.
-
+.
 
 
 
