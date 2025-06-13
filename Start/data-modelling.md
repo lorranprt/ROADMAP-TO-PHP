@@ -30,7 +30,33 @@ Curso completo sobre o assunto.
 
 # notes
 
+Modelagem de banco de dados relacional
 
+**Diferença entre modelos**
+A modelagem de dados é essencial na criação de bancos de dados, pois organiza e estrutura as informações com base nos requisitos do sistema. Ela ocorre em três etapas:
+
+Modelo conceitual – Representa o negócio de forma abstrata, identificando entidades e relacionamentos.
+
+Modelo lógico – Define entidades, atributos, chaves e regras de integridade, já pensando em como os dados serão organizados.
+
+Modelo físico – Especifica como os dados serão armazenados no banco, usando linguagem SQL e considerando aspectos técnicos.
+
+Essencial: aplicar normalização, garantir regras de integridade, usar ferramentas de modelagem, e validar com os usuários para garantir que os dados representem corretamente o negócio.
+
+
+**Entendendo o SGBD**
+A palavra "gerencial" refere-se à capacidade de incluir, alterar ou consultar dados de forma mais amigável por meio de um SGBD (Sistema Gerenciador de Banco de Dados).
+
+Tudo que fazemos com dados — armazenar, alterar ou acessar — precisa passar pelo SGBD, que é o software responsável por gerenciar o banco de dados.
+
+É comum as pessoas confundirem SGBD com banco de dados. Frases como “trabalho com o banco de dados da Oracle” na verdade se referem ao SGBD da Oracle.
+
+Esclarecimento importante:
+Banco de dados: onde os dados estão armazenados.
+
+SGBD: software que permite gerenciar esses dados.
+
+Saber essa diferença é essencial para entender corretamente os conceitos da área.
 
 
 
