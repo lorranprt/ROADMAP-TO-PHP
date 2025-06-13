@@ -42,13 +42,6 @@ Deep dive into PostgreSQL, a powerful open-source relational database system. To
 ### 🐳 Docker
 Learn how to containerize applications and manage development environments using Docker.
 
-## 🚀 Getting Started
-
-1. Start with Git and relational databases.
-2. Move to PHP for backend scripting.
-3. Explore PostgreSQL and Docker as you build and scale projects.
-4. Clarify any uncertain tools (e.g., TER, QSL) for accurate study focus.
-
 ## 📌 Notes
 
 - Each section may link to tutorials, documentation, or courses as the study progresses.
