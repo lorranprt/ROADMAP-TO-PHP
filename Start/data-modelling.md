@@ -12,6 +12,7 @@ Fundamental principles and frameworks
 ## (PT-BR) Cursos relevantes Alura
 Modelagem de banco de dados: entidades, relacionamentos e atributos. {Curso introdutório}
 > https://cursos.alura.com.br/course/modelagem-banco-dados-entidades-relacionamentos-atributos
+
 Modelagem de banco de dados relacional: modelagem lógica e física. (IMPORTANTE)
 > https://cursos.alura.com.br/course/modelagem-banco-dados-relacional-logica-fisica
 
