@@ -62,6 +62,69 @@ Saber essa diferença é essencial para entender corretamente os conceitos da á
 
 Install Java & o _BrModelo
 
+1️⃣ O que é?
+Modelo de banco de dados mais usado.
+
+Organiza dados em tabelas (relações).
+
+Cada tabela tem linhas (tuplas) e colunas (atributos).
+
+2️⃣ Chaves (Keys)
+Chave primária (Primary Key): identifica unicamente cada linha.
+
+Chave estrangeira (Foreign Key): faz ligação entre tabelas.
+
+Chave candidata e alternativa: outras chaves possíveis.
+
+3️⃣ Integridade
+Integridade de entidade: chave primária não pode ser nula ou repetida.
+
+Integridade referencial: foreign key deve apontar para algo válido na outra tabela.
+
+4️⃣ SQL (Structured Query Language)
+Linguagem padrão de banco relacional:
+
+SELECT: buscar dados.
+
+INSERT: adicionar dados.
+
+UPDATE: alterar dados.
+
+DELETE: excluir dados.
+
+CREATE / DROP: criar ou apagar tabelas.
+
+Exemplo:
+**SELECT Nome FROM Clientes WHERE Idade > 18;**
+
+5️⃣ Normalização
+Processo de dividir dados em várias tabelas para:
+Evitar redundância.
+Melhorar integridade.
+Existem várias formas normais (1FN, 2FN, 3FN...).
+
+6️⃣ Vantagens
+Dados organizados.
+Facilidade de manter integridade.
+Facilidade de relacionar informações.
+
+7️⃣ Desvantagens
+Pode ser mais lento em grandes volumes (por isso surgiram os bancos NoSQL).
+
+Requer um bom projeto inicial de estrutura.
+
+8️⃣ Principais SGBDs relacionais (Softwares)
+MySQL
+PostgreSQL
+Oracle Database
+SQL Server
+
+9️⃣ Transações
+Operações atômicas (ACID):
+Atomicy
+Consistency
+Isolation
+Durability
 
 ## futher reading
 
