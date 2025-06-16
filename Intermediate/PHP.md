@@ -21,3 +21,135 @@ Oferece uma sequência de 6 cursos, abrangendo:
 - **PHP básico e Avançado:** Desde loops até programação funcional.
 - **Orientação a Objetos:** Classes, interfaces e SOLID.
 - **Frameworks:** Laravel, Symfony 
+
+# notes
+
+📄 Sintaxe básica:
+Todo código PHP fica dentro de:
+```
+<?php
+// seu código aqui
+?>
+
+```
+
+📥 Variáveis:
+Sempre começam com $
+```
+<?php
+$nome = "Lorran";
+$idade = 28;
+?>
+```
+
+Estruturas de Controle:
+```
+<?php
+if ($idade > 18) {
+  echo "Maior de idade";
+} else {
+  echo "Menor de idade";
+}
+
+for ($i = 0; $i < 10; $i++) {
+  echo $i;
+}
+
+while ($idade < 30) {
+  $idade++;
+}
+?>
+
+```
+
+Funções:
+```
+<?php
+function soma($a, $b) {
+  return $a + $b;
+}
+echo soma(5, 10);
+?>
+
+```
+
+Programação Orientada a Objetos (POO):
+```
+<?php
+class Pessoa {
+  public $nome;
+  
+  function __construct($nome) {
+    $this->nome = $nome;
+  }
+  
+  function apresentar() {
+    echo "Meu nome é $this->nome";
+  }
+}
+
+$pessoa = new Pessoa("Lorran");
+$pessoa->apresentar();
+?>
+```
+
+Trabalhando com Banco de Dados (MySQLi):
+```
+<?php
+$conn = new mysqli("localhost", "usuario", "senha", "banco");
+
+if ($conn->connect_error) {
+  die("Falha: " . $conn->connect_error);
+}
+
+$sql = "SELECT nome FROM clientes";
+$result = $conn->query($sql);
+
+while($row = $result->fetch_assoc()) {
+  echo $row["nome"];
+}
+
+$conn->close();
+?>
+```
+
+Segurança:
+
+Sempre usar prepared statements para evitar SQL Injection.
+Validar e sanitizar dados de entrada.
+Cuidar com XSS e CSRF.
+
+Manipulação de Arquivos:
+```
+<?php
+$file = fopen("arquivo.txt", "r");
+echo fread($file, filesize("arquivo.txt"));
+fclose($file);
+?>
+```
+
+Sessões e Cookies:
+```
+<?php
+session_start();
+$_SESSION["usuario"] = "Lorran";
+
+setcookie("visita", "hoje", time() + 3600);
+?>
+```
+
+Principais ferramentas/frameworks PHP:
+Laravel (framework MVC)
+Symfony
+Composer (gerenciador de dependências)
+PHPUnit (testes)
+Slim (microframework)
+
+Práticas modernas:
+Sempre usar PHP 8.x+
+Trabalhar com namespaces e autoload (Composer).
+Separar lógica de apresentação (MVC).
+Escrever testes automatizados.
+Usar ORM (ex.: Eloquent no Laravel).
+
+
